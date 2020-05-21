@@ -14,3 +14,4 @@ jobs:
         ftp-server: sftp://macke-it.de/../var/www/mackeit
         ftp-username: root
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        git-ftp-args: --insecure
