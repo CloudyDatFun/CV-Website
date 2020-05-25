@@ -10,6 +10,13 @@ body {
     color: #868e96
 }
 
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width:992px) {
     body {
         padding-top: 0;
